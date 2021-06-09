@@ -1,0 +1,152 @@
+
+img{
+    object-fit: contain;
+    max-width: 100px;
+}
+
+.header{
+    display:inline-flex;
+    height: 15px;
+}
+
+.logo{
+    display:inline;
+    margin-top: 2%;
+    margin-left: 0%;
+}
+.iiitg{
+    display:inline-flex;
+    font-family: serif;
+    font-size: 30px;
+    color: #1b395f;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.iiitg_name{
+    color: #1b395f;
+    text-decoration: none;
+}
+
+.body{
+    height: 555px;
+    background-color: #dae1e7;
+}
+
+.navigation{
+    display: block;
+    background-color: #1b395f;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.weblink{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding-right: 100px;
+    padding-left: 100px;
+    transition: 0.5s;
+}
+.weblink:hover{
+    box-shadow: 0px 0px 12px 0.8px #b2bed3b2;
+}
+
+table{
+    object-fit: contain;
+    background-color: #1b395f;
+    color: white;
+    height: 75px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; 
+}
+
+th{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px; 
+}
+th:hover{
+    font-size: 35px;
+}
+
+.welcome{
+    float: left;
+    background-color: darkgray;
+    height: 500px;
+    width: 780px;
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.form_type{
+    display: flex;
+    flex-direction: column;  
+}
+
+.overlap{
+    top: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.form {
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    border: 2px solid #1b395f;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-radius: 20;
+    background-color: #1b395f;
+    position: absolute;
+    border-radius: 50px;
+    shape-outside: margin-box;
+    box-shadow: 0px 0px 12px 0.8px #1a1c1fb2;
+}
+
+label{
+    color: white;
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+}
+
+input{
+    width: 55%;
+    float: right;
+    margin-right: 15px;
+}
+input:focus{
+    width: 67%;
+    box-shadow: 0px 0px 12px 0.8px #091730b2;
+}
+
+
+button{
+    font-size: 21px;
+    padding: 5px 20px;
+    border: 0;
+    background-color: #dae1e7;
+    color: #1b395f;
+    border-radius: 3px;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #a9aeb3;
+}
+button:focus {
+    outline: none;
+}
+
+.footer{
+    border: 1px solid black;
+    background-color: white;
+    color: #cfe4fc;
+}
+
