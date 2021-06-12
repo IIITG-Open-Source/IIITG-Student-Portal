@@ -1,1 +1,1 @@
-# IIITG-Student-Portal
+# Student-Portal
